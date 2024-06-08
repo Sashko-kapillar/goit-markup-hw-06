@@ -34,6 +34,11 @@ a {
     padding-bottom: 96px;
     padding-top: 96px;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 button {
@@ -127,6 +132,12 @@ input {
   line-height: 1.5;
   color: #434455;
   gap: 40px;
+}
+
+@media (max-width:320px) {
+  .menu-list {
+    display: none;
+  }
 }
 
 .menu-list>.menu-link {
