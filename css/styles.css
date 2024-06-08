@@ -54,6 +54,13 @@ input {
   margin: 0 auto;
 }
 
+@media (max-width:320px) {
+  .container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
