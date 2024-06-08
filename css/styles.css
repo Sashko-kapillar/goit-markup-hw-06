@@ -39,6 +39,11 @@ a {
     width: 100%;
     height: auto;
   }
+
+  body,
+  .header {
+    max-width: 320px;
+  }
 }
 
 button {
@@ -135,7 +140,9 @@ input {
 }
 
 @media (max-width:320px) {
-  .menu-list {
+
+  .menu-list,
+  .contacts {
     display: none;
   }
 }
@@ -329,7 +336,6 @@ input {
 }
 
 @media (max-width:320px) {
-
   .container {
     padding: 0 28px;
   }
