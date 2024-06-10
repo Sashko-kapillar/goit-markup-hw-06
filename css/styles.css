@@ -778,6 +778,10 @@ input:placeholder-shown {
     /* margin-bottom: 72px; */
   }
 
+  .footer-send-container {
+    margin: 0 auto;
+  }
+
   .footer-send-label-text {
     text-align: center;
   }
