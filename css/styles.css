@@ -10,6 +10,12 @@ body {
   max-width: 100%;
 }
 
+@media screen and (min-width:1158px) {
+  body {
+    max-width: 1440px;
+  }
+}
+
 img {
   display: block;
   width: 100%;
@@ -29,6 +35,13 @@ a {
 .section {
   padding-bottom: 96px;
   padding-top: 96px;
+}
+
+@media screen and (min-width:1158px) {
+  .section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
 }
 
 button {
@@ -56,13 +69,25 @@ input {
   margin: 0 auto;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .header {
-    max-width: 1158px;
+    max-width: 1157px;
   }
 
   .container {
     max-width: 1126px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:1158px) {
+  .header {
+    max-width: 1440px;
+  }
+
+  .container {
+    max-width: 1158px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -75,14 +100,20 @@ input {
 
 .top-line-nav {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .menu-list {
   display: none;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
+  .menu-list {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:1158px) {
   .menu-list {
     display: flex;
   }
@@ -165,13 +196,19 @@ input {
   display: none;
 }
 
+@media screen and (min-width:1158px) {
+  .contacts {
+    display: flex;
+  }
+}
+
 .contacts-info-list {
   font-weight: 400;
   gap: 40px;
 }
 
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .contacts {
     display: flex;
     padding: 0;
@@ -218,6 +255,12 @@ input {
   padding: 72px 0;
 }
 
+@media screen and (min-width:1158px) {
+  .section-hero {
+    padding: 188px 0;
+  }
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -229,7 +272,14 @@ input {
   text-align: center;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width:1158px) {
   .hero-title {
     max-width: 496px;
     font-size: 56px;
@@ -266,9 +316,9 @@ input {
 /* -----------    Advantages   --------- */
 
 
-.advantages-container {
+/* .advantages-container {
   display: flex;
-}
+} */
 
 .advantages-title {
   font-weight: 700;
@@ -298,9 +348,9 @@ input {
   gap: 76px;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .advantages-list {
-    /* gap: 24px; */
+    /*  */
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
@@ -312,10 +362,12 @@ input {
   }
 }
 
-
-/* .advantages-item {
-  width: calc((100% - 72px) / 4);
+/* @media screen and (min-width:1158px) {
+  .hero-title {
+    gap: 24px;
+  }
 } */
+
 
 .advantages-subtitle {
   font-weight: 500;
@@ -344,6 +396,22 @@ input {
   border-radius: 4px;
   margin-bottom: 8px;
   background-color: #f4f4fd;
+}
+
+@media screen and (min-width:1158px) {
+  .advantages-icon-container {
+    display: flex;
+  }
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
 
 .advantages-icon-list {
@@ -382,12 +450,12 @@ input {
 
 .team-item {
   background-color: #fff;
-  /* width: calc((100% - 72px) / 4); */
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -400,6 +468,20 @@ input {
     width: calc((100% - 24px) / 2);
   }
 }
+
+@media screen and (min-width:1158px) {
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
 
 .team-name-position {
   padding: 32px 0;
@@ -491,11 +573,11 @@ input {
 }
 
 .portfolio-item {
-  /* width: calc((100% - 48px) / 3); */
+
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -507,6 +589,21 @@ input {
     width: calc((100% - 24px) / 2);
   }
 }
+
+@media screen and (min-width:1158px) {
+
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+
 
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -585,17 +682,30 @@ footer>.container {
   display: flex;
   align-items: baseline;
   flex-direction: column;
-  /* margin-right: 120px; */
+
   align-items: center;
   margin-bottom: 72px;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   footer>.container {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     margin-left: 92px;
+  }
+}
+
+@media screen and (min-width:1158px) {
+  footer>.container {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .footer-container {
+    align-items: baseline;
+    flex-direction: column;
+    margin-right: 120px;
   }
 }
 
@@ -630,6 +740,14 @@ footer>.container {
   /* margin-right: 80px; */
   align-items: center;
   margin-bottom: 72px;
+}
+
+@media screen and (min-width:1158px) {
+
+  .footer-media-container {
+    margin-right: 80px;
+    align-items: start;
+  }
 }
 
 .footer-text-media {
@@ -715,7 +833,7 @@ footer>.container {
   width: 288px;
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:768px) and (max-width:1157px) {
   .footer-send-area {
     max-width: 264px;
   }
@@ -733,6 +851,23 @@ footer>.container {
     align-items: start;
   }
 }
+
+@media screen and (min-width:1158px) {
+
+  .footer-send-form {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .footer-send-container {
+    align-items: start;
+  }
+
+  .footer-send-area {
+    max-width: 264px;
+  }
+}
+
 
 input:placeholder-shown {
   border: 1px solid #fff;
