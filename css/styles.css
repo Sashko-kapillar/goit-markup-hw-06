@@ -258,7 +258,7 @@ input {
 .section-hero {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+      rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -269,6 +269,17 @@ input {
 @media screen and (min-width: 768px) {
   .section-hero {
     padding: 188px 0;
+    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-hero {
+    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   }
 }
 
