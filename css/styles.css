@@ -892,7 +892,11 @@ footer>.container {
   align-items: center;
 }
 
-
+@media screen and (min-width: 768px) {
+  .footer-send-container {
+    align-items: left;
+  }
+}
 
 .footer-send-label-text {
   font-weight: 500;
@@ -931,12 +935,6 @@ footer>.container {
 
 .footer-send-label-text {
   margin-bottom: 16px;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-send-label-text {
-    align-items: start;
-  }
 }
 
 .footer-send-area {
