@@ -37,6 +37,11 @@ a {
   }
 }
 
+.container {
+  max-width: 768px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
 
 
 button {
@@ -66,8 +71,6 @@ input {
 
   .container {
     max-width: 768px;
-    padding: 0 16px;
-    margin: 0 auto;
   }
 
   .header-container {
@@ -82,14 +85,8 @@ input {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
   }
 }
-
-/* .header-container {
-  display: flex;
-  justify-content: space-between;
-} */
 
 .top-line-nav {
   display: flex;
