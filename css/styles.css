@@ -1131,11 +1131,11 @@ input:placeholder-shown {
   height: 100%;
   background-color: #fcfcfc;
   justify-content: center;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -1189,7 +1189,6 @@ input:placeholder-shown {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   flex-direction: column;
   gap: 40px;
   font-style: normal;
@@ -1220,16 +1219,16 @@ input:placeholder-shown {
 .mobi-info-list {
   flex-direction: column;
   gap: 24px;
-}
-
-.mobi-contacts-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
   text-transform: capitalize;
   font-style: normal;
+}
+
+.mobi-contacts-link {
+  color: #434455;
 }
 
 .mobi-menu-link:hover,
