@@ -697,8 +697,10 @@ input {
 
 
 .footer {
+  display: flex;
   padding: 100px 0;
   background: #2e2f42;
+  justify-content: center;
 }
 
 footer>.container {
@@ -717,6 +719,7 @@ footer>.container {
 
 .footer-container {
   margin-bottom: 72px;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
