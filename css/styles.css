@@ -894,6 +894,8 @@ footer>.container {
 
 @media screen and (min-width: 768px) {
   .footer-send-container {
+    display: flex;
+    flex-direction: column;
     align-items: left;
   }
 }
@@ -905,10 +907,6 @@ footer>.container {
   letter-spacing: 0.02em;
   color: #fff;
 }
-
-/* .footer-send-container {
-  display: flex;
-} */
 
 .footer-send-form {
   display: flex;
