@@ -426,6 +426,7 @@ input {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 24px;
+    max-width: 100%;
   }
 
   .advantages-item {
@@ -545,6 +546,7 @@ input {
   .team-list {
     gap: 24px;
     padding: 0;
+    max-width: 100%;
   }
 }
 
@@ -661,7 +663,7 @@ input {
 
   .portfolio-list {
     row-gap: 48px;
-
+    max-width: 100%;
   }
 
   .portfolio-item {
