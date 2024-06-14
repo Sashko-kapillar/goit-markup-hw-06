@@ -283,6 +283,15 @@ input {
   }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio),
+(min-resolution:2dppx),
+(min-resolution:192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+  }
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
