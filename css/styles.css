@@ -266,12 +266,30 @@ input {
   padding: 72px 0;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio),
+(min-resolution:2dppx),
+(min-resolution:192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office-mob-2x.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .section-hero {
     padding: 188px 0;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio),
+  (min-resolution:2dppx),
+  (min-resolution:192dpi) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
+    }
   }
 }
 
@@ -281,14 +299,14 @@ input {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   }
-}
 
-@media screen and (-webkit-min-device-pixel-ratio),
-(min-resolution:2dppx),
-(min-resolution:192dpi) {
-  .section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+  @media screen and (-webkit-min-device-pixel-ratio),
+  (min-resolution:2dppx),
+  (min-resolution:192dpi) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+    }
   }
 }
 
@@ -375,6 +393,8 @@ input {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  max-width: 288px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -383,6 +403,7 @@ input {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    max-width: 100%;
   }
 
   .advantages-item {
@@ -477,6 +498,9 @@ input {
 
 .team {
   background-color: #f4f4fd;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 0 auto;
 }
 
 .team-title {
@@ -493,6 +517,8 @@ input {
 .team-list {
   flex-direction: column;
   gap: 72px;
+  max-width: 264px;
+  margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -503,6 +529,7 @@ input {
     row-gap: 64px;
     column-gap: 24px;
     padding: 0 76px;
+    max-width: 100%;
   }
 
   .team-item {
@@ -612,6 +639,8 @@ input {
 .portfolio-list {
   flex-direction: column;
   row-gap: 48px;
+  max-width: 288px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -620,6 +649,7 @@ input {
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    max-width: 736px;
   }
 
   .portfolio-item {
@@ -631,6 +661,7 @@ input {
 
   .portfolio-list {
     row-gap: 48px;
+
   }
 
   .portfolio-item {
