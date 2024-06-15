@@ -30,10 +30,20 @@ a {
   padding-top: 96px;
 }
 
+.container {
+  max-width: 768px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
   .section {
     padding-bottom: 112px;
     padding-top: 112px;
+  }
+
+  .container {
+    max-width: 768px;
   }
 }
 
@@ -45,9 +55,8 @@ a {
 }
 
 .container {
-  max-width: 768px;
-  padding: 0 16px;
-  margin: 0 auto;
+  max-width: 1158px;
+  padding: 0 15px;
 }
 
 
@@ -74,10 +83,6 @@ input {
 @media screen and (min-width: 768px) {
   .header {
     height: 72px;
-  }
-
-  .container {
-    max-width: 768px;
   }
 
   .header-container {
