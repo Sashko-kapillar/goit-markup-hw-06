@@ -173,12 +173,6 @@ input {
   }
 }
 
-
-/* .current {
-  position: relative;
-  color: #404bbf;
-}
-
 .current::after {
   content: "";
   position: absolute;
