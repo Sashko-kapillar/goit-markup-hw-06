@@ -1027,9 +1027,9 @@ input:placeholder-shown {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 .is-open {
@@ -1242,6 +1242,13 @@ input:placeholder-shown {
   margin-top: 8px;
   margin-right: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .check-icon {
+    margin-top: 0;
+  }
+}
+
 
 .modal-link {
   display: inline-flex;
