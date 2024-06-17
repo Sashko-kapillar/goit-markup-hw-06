@@ -188,7 +188,7 @@ input {
   background-color: #404bbf;
   border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+} 
 
 .logo-clr {
   color: #2e2f42;
@@ -1023,15 +1023,14 @@ input:placeholder-shown {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  justify-content: center;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 }
 
 .is-open {
@@ -1327,9 +1326,9 @@ input:placeholder-shown {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 @media screen and (min-width: 320px) and (max-width:767px) {
@@ -1409,7 +1408,6 @@ input:placeholder-shown {
 
 .mobi-icon-item {
   display: flex;
-  width: calc((100%-120px) / 4);
   width: 40px;
   height: 40px;
 }
@@ -1441,7 +1439,7 @@ input:placeholder-shown {
 }
 
 .mobi-social {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .mobi-icon-link {
