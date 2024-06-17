@@ -647,7 +647,7 @@
 
     <div class="backdrop">
       <div class="modal-container">
-        <button type="button" class="close-btn">
+        <button type="button" class="btnClose" id="btnClose">
           <svg width="8" height="8" class="modal-close-icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -730,6 +730,18 @@
       </div>
     </div>
 
+    <!--   JS button close  -->
+
+
+    <!-- <script>
+      btnClose.addEventListener("click", function () {
+        backdrop.style.display = "none";
+        if (windowInnerWidth >= 1158) {
+       bodyMargin();
+   }
+});
+    </script> -->
+
     <!-- Menu Mobile Box -->
 
     <div class="container mobilebox">
@@ -765,8 +777,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="mobi-menu-link"
-                >Contacts</a
-              >
+                >Contacts
+              </a>
             </li>
           </ul>
         </nav>
@@ -776,13 +788,13 @@
         <ul class="mobi-info-list">
           <li class="mobi-contacts-item">
             <a href="tel:+110001111111" class="mobi-contacts-link"
-              >+11 (000) 111-11-11</a
-            >
+              >+11 (000) 111-11-11
+            </a>
           </li>
           <li class="mobi-contacts-item">
             <a href="mailto:info@devstudio.com" class="mobi-contacts-link"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com
+            </a>
           </li>
         </ul>
       </address>
