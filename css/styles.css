@@ -302,7 +302,7 @@ input {
   .section-hero {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/people-office.webp);
   }
 
   @media screen and (-webkit-min-device-pixel-ratio),
@@ -310,7 +310,7 @@ input {
   (min-resolution:192dpi) {
     .section-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+          rgba(46, 47, 66, 0.7)), url(../images/people-office-webp-2x.webp);
     }
   }
 }
