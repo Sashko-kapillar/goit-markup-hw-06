@@ -1298,9 +1298,9 @@ input:placeholder-shown {
   background-color: #fcfcfc;
   padding-top: 72px;
   padding-bottom: 24px;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 
 }
 
